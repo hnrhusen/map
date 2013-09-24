@@ -1,0 +1,39 @@
+.row
+{
+	width:900px;
+}
+.row .label 
+{
+	width:900px;
+	font-size:80%;
+	font-weight:bold;
+	margin-bottom:5px;
+	color:rgb(102,102,102);
+}
+.row .field SELECT[multiple="multiple"]
+{
+	width:898px;
+	border:solid 1px rgb(204,204,204);
+	outline:none;
+}
+.row .field INPUT[type="text"],.row .field INPUT[type="password"]
+{
+	width:893px;
+	border:solid 1px rgb(204,204,204);
+	margin:0;
+	padding-top:5px;
+	padding-bottom:7px;
+	padding-left:5px;
+	outline:none;
+}
+.row .field TEXTAREA
+{
+	width:893px;
+	height:98px;
+	border:solid 1px rgb(204,204,204);
+	padding-left:5px;
+	overflow:hidden;
+	resize:none;
+	padding-top:5px;
+	outline:none;	
+}

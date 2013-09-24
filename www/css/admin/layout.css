@@ -1,0 +1,144 @@
+#outer
+{
+	width:100%;
+	text-align:center;
+}
+#inner
+{
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#header
+{
+	width:980px;
+	height:80px;
+}
+#header-top
+{
+	width:980px;
+	height:50px;
+}
+#header-top-left
+{
+	width:490px
+	height:50px;
+	line-height:50px;
+	float:left;
+}
+#header-top-left H1
+{
+	font-size:120%;
+	color:rgb(153,153,102);
+	font-weight:normal;
+}
+#header-top-right
+{
+	width:490px;
+	height:50px;
+	float:right;
+	text-align:right;
+	line-height:50px;
+}
+#header-top-right P
+{
+	font-size:80%;
+}
+#header-top-right IMG
+{
+	vertical-align:middle;
+	margin-right:10px;
+}
+#header-top-right P A
+{
+	color:rgb(153,153,102);
+	text-decoration:none;
+}
+#header-top-right P A:Hover
+{
+	text-decoration:underline;
+}
+#header-bottom
+{
+	width:980px;
+	height:30px;
+	border-top:solid 1px rgb(211,211,211);
+	border-left:solid 1px rgb(211,211,211);
+	border-right:solid 1px rgb(211,211,211);
+	background-image:url('/img/admin/header-bottom.jpg');
+	text-align:left;
+}
+#header-bottom UL
+{
+	list-style-type:none;
+	height:30px;
+}
+#header-bottom UL LI
+{
+	float:left;
+	height:30px;
+	line-height:26px;
+	padding-left:20px;
+	padding-right:20px;
+	background-image:url('/img/admin/header-seperator.jpg');
+	background-repeat:no-repeat;
+	background-position:top right;
+}
+#header-bottom UL LI:Hover
+{
+	background-image:url('/img/admin/header-selected.jpg');
+	background-repeat:repeat-x;
+}
+#header-bottom UL LI.selected
+{
+	background-image:url('/img/admin/header-selected.jpg');
+	background-repeat:repeat-x;
+}
+#header-bottom UL LI A
+{
+	font-size:80%;
+	text-decoration:none;
+	color:rgb(101,101,101);
+}
+#content
+{
+	width:940px;
+	min-height:400px;
+	padding:20px;
+	background-color:rgb(255,255,255);
+	border:solid 1px rgb(211,211,211);
+	text-align:left;
+}
+#content H2
+{
+	font-size:100%;
+	margin-bottom:5px;
+}
+#content P
+{
+	font-size:80%;
+}
+#footer
+{
+	width:980px;
+	min-height:20px;
+	padding-top:20px;
+	text-align:left;
+}
+#footer-left
+{
+	width:490px;
+	min-height:20px;
+	float:left;
+}
+#footer-left P
+{
+	font-size:80%;
+	color:#999966;
+}
+#footer-right
+{
+	width:490px;
+	min-height:20px;
+	float:left;
+}

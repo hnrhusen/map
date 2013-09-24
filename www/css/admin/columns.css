@@ -1,0 +1,40 @@
+/* 640 / 280 column split */
+.col-640-280
+{
+	width:940px;
+	min-height:20px;
+	clear:both;
+}
+.col-640-280 .left
+{
+	width:640px;
+	min-height:20px;	
+	margin-right:20px;
+	float:left;
+}
+.col-640-280 .right
+{
+	width:280px;
+	min-height:20px;	
+	float:left;
+}
+/* 460 / 460 column split */
+.col-460-460
+{
+	width:940px;
+	min-height:20px;
+	clear:both;
+}
+.col-460-460 .left
+{
+	width:460px;
+	min-height:20px;	
+	margin-right:20px;
+	float:left;
+}
+.col-460-460 .right
+{
+	width:460px;
+	min-height:20px;	
+	float:left;
+}
